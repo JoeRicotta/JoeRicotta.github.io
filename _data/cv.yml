@@ -2,96 +2,125 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Joe Ricotta
     - name: Languages
-      value: English, German
+      value: English, Portuguese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy
+      institution: The Pennsylvania State University, State College, PA
+      year: 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Dual-title PhD in Kinesiology & Clinical and Translational Health Sciences
+    - title: Doctor of Physical Therapy
+      institution: Ithaca College, Ithaca, NY
+      year: 2017
+    - title: Bachelor of Science
+      institution: Ithaca College, Ithaca, NY
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - Clinical Health Studies
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Publications
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://JoeRicotta.github.io/publications">Bibliography</a>
 
-- title: Other Interests
-  type: list
+- title: Grants
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: TL1 Fellowship, National Institutes of Health
+      year: 2021 - 2022
+      description: Project "Changes in motor and perceptual control variables in the Parkinsonian nervous system"
+    - title: LRP Awardee, National Institutes of Health
+      year: 2021 - 2023
+      description: Project "Stability of movement as a biomarker in Parkinson's disease"
+      
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Motor unit synergies stabilizing involuntary muscle action are of spinal origin
+      year: 2022
+      description: Poster, Gordon Conference on the Basal Ganglia, Ventura, CA
+    - title: Stability of action and kinesthetic perception in Parkinson’s disease
+      year: 2021
+      description: <a href="https://www.youtube.com/watch?v=V7EQdACeDdo&t=2s">Presentation</a>, Penn State Graduate Exhibition, University Park, PA
+    - title: Can ankle accelerations be explained by rambling and trembling?
+      year: 2021
+      description: <a href="https://www.youtube.com/watch?v=gR_mbLr17oo&t=1s">Presentation</a>, Course Project
+    - title: Does control over color influence accuracy of a color matching task?
+      year: 2021
+      description: <a href="https://www.youtube.com/watch?v=8UTMukeNp1k&t=1s">Presentation</a>, Course Project
+
+- title: Associations
+  type: time_table
+  contents:
+    - title: President, Motor Control Assocination
+      year: 2022 - Present
+      description: Graduate organization at PSU for the study of neuromotor control        
+    - title: Board-Certified Orthopedic Clinical Specialist
+      year: 2019 - Present
+      description: American Academy of Orthopedic Physical Therapy
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Course Instructor, Biophysical Foundations of Kinesiology
+      year: 2022
+      description: The Pennsylvania State University, University Park, PA
+    - title: Graduate Teaching Assistant, Functional Anatomy
+      year: 2020
+      description: The Pennsylvania State University, University Park, PA
+    - title: Lab Instructor, Musculoskeletal Examination and Evaluation
+      year: 2018
+      description: Ithaca College, Ithaca, NY
+    - title: Clinical Instructor, Outpatient Orthopedics
+      year: 2018
+      description: Cayuga Medical Center, Ithaca, NY
+    - title: Lab Assistant, Clinical Neuroanatomy
+      year: 2016
+      description: Ithaca College, Ithaca, NY
+    - title: Lab Assistant, Gross Human Anatomy
+      year: 2016
+      description: Ithaca College, Ithaca, NY
+
+- title: Clinical Experience
+  type: time_table
+  contents:
+    - title: Physical Therapist, Orthopedics
+      year: 2019 - Present
+    - title: Orthopedic Physical Therapy Resident
+      year: 2018
+      description: Cayuga Medical Center, Ithaca, NY
+
+- title: Technical Interests
+  type: nested_list
+  contents:
+    - title: Open-source scientific software development
+      items:
+        - Development of data API for Jiku (spm1d) in Python
+    - title: Experimental design/development
+      items:
+        - Experimental control flow and data recording in LabVIEW, Arduino (C/C++)/Processing, Signal
+    - title: Neuromodulation and neural recording
+      items:
+        - Transcranial magnetic stimulation, neural navigation, electromyography
+    - title: Neurophysiological modeling
+      items:
+        - Analysis and decomposition of action potential data and electromyographical data, with particular emphasis on motor unit data and dimensionality reduction techniques
+    - title: Statistical programming
+      items:
+        - Statistical analysis in R, MATLAB; Bayesian modeling in Stan.
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: Best Research Pitch
+      year: 2022
+      description: Penn State College of Health and Human Development Rapid Research Contest
+    - title: Best Research Project
+      year: 2017
+      description: 20th Annual James J. Whalen Academic Symposium, Ithaca College
